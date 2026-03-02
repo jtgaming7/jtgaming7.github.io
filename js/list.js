@@ -3,28 +3,38 @@ const d = {
 	/*=================================================================================*/
 		{
                        "vids": [
+						   {
+						"user": "JT",
+						"link": " https://www.youtube.com/watch?v=kLlV43vJ1SE",
+						"percent": 46
+						"hz": "" 
+							},
 
                        ],
-                       "name": "The Hallucination",
-                       "author": "piesy",
-                       "more": "none",
-                       "id": 81139702,
-                       "pass": "",
-                       "percentToQualify": 1,
-                       "verificationVid": "https://youtu.be/j_QZvBAqMBI?si=-DxXKqE45EBB-KGq"
+
+						"name": "The Yandere",
+                    	"author": "Ben",
+                    	"more": "none",
+						"id": 63009517,
+                    	"pass": "Free to copy",
+                    	"percentToQualify": 46,
+                    	"verificationVid": "https://www.youtube.com/watch?v=kLlV43vJ1SE",
+                    	"key": 0
+			},
                 },
 	/*=================================================================================*/
 		{
                        "vids": [
 
                        ],
-                       "name": "Blooming Blossoms",
-                       "author": "piesy",
-                       "more": "none",
-                       "id": 130293163,
-                       "pass": "",
-                       "percentToQualify": 1,
-                       "verificationVid": "https://youtu.be/GU-qfLRoDMo?si=VWhRCQ_aeJIZijYe"
+						"name": "Yatagarasu",
+	                    "author": "Ben",
+	                    "more": "none",
+	                    "id": 63009517,
+	                    "pass": "Free to copy",
+	                    "percentToQualify": 45,
+	                    "verificationVid": "https://youtu.be/-p8Z_NU2GB0?si=L3Mmwk_ud5uzXOMl",
+	                    "key": 1
                 },
         /*=================================================================================*/
 			{
@@ -75,6 +85,7 @@ d.list.forEach((item, index) => {
 });
 
 const list = d.list;const version = d.version;
+
 
 
 
