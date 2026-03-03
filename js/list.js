@@ -6,7 +6,7 @@ const d = {
           "user": "JT",
           "link": "",
           "percent": 48,
-          "hz": "240"
+          "hz": "144"
         }
       ],
       "name": "The Yandere",
@@ -113,19 +113,19 @@ const d = {
           "user": "JT",
           "link": "https://youtu.be/r7m4jtjTygk?si=_NZ302Cl-UXCWCvz",
           "percent": 100,
-          "hz": "240hz"
+          "hz": "144hz"
         },
         {
           "user": "Andrew",
           "link": "",
           "percent": 100,
-          "hz": "240hz"
+          "hz": "144hz"
         },
         {
           "user": "Ben",
           "link": "https://youtu.be/xAwz8OIA-_Q?si=NpYW1G4YzweSyBmk",
           "percent": 100,
-          "hz": "240hz"
+          "hz": "144hz"
         }
       ],
       "name": "Bloodbath",
@@ -152,7 +152,7 @@ const d = {
           "user": "Ben",
           "link": "https://youtu.be/weDbuw-G330?si=D3uuu8dZWpvTALNH",
           "percent": 100,
-          "hz": "240hz"
+          "hz": "144hz"
         }
     ],
       "name": "Empyrean",
@@ -189,7 +189,7 @@ const d = {
           "user": "Ben",
           "link": "",
           "percent": 100,
-          "hz": "240hz"
+          "hz": "144hz"
         }
       ],
       "name": "Deception Dive",
@@ -302,7 +302,7 @@ const d = {
           "user": "Ethan",
           "link": "",
           "percent": 100,
-          "hz": "240hz"
+          "hz": "144hz"
         }
         
       ],
@@ -431,6 +431,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
