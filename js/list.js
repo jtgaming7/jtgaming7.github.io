@@ -116,6 +116,23 @@ const d = {
       "percentToQualify": 42,
       "verificationVid": "https://youtu.be/L2aKNNaGkRY"
     }
+
+    
+			{
+	                       "vids": [
+				    
+			       ],
+	                       "name": "Aftermath",
+	                       "author": "Andrew",
+	                       "more": "none",
+	                       "id": 63009517,
+	                       "pass": "Free to copy",
+	                       "percentToQualify": 47,
+	                       "verificationVid": " ",
+	                       "key": 1
+	                },
+		/*=================================================================================*/
+				
   ],
   "version": [1, 0, 0]
 };
@@ -126,3 +143,4 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
