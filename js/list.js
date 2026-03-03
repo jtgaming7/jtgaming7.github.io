@@ -259,6 +259,24 @@ const d = {
       "verificationVid": ""
     },
 
+
+
+
+
+  {
+      "vids": [],
+      "name": "Sweater Weather",
+      "author": "Andrew",
+      "more": "none",
+      "id": 63009672,
+      "pass": "NA",
+      "percentToQualify": 48,
+      "verificationVid": ""
+    },
+    
+
+    
+
         {
       "vids": [
 
@@ -413,6 +431,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
