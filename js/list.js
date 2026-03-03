@@ -17,6 +17,8 @@ const d = {
       "percentToQualify": 46,
       "verificationVid": "https://www.youtube.com/watch?v=kLlV43vJ1SE"
     },
+
+	  
     {
       "vids": [],
       "name": "Yatagarasu",
@@ -57,6 +59,36 @@ const d = {
       "percentToQualify": 64,
       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl"
     },
+{
+	                "vids": [
+				    
+			       ],
+	                       "name": "Surge of the Shield",
+	                       "author": "JT",
+	                       "more": "none",
+	                       "id": 63009517,
+	                       "pass": "Free to copy",
+	                       "percentToQualify": 51,
+	                       "verificationVid": "https://www.youtube.com/watch?v=bvObypx7roQ&t=1s",
+	                       
+	                },
+	
+			/*=================================================================================*/		
+			{
+	                "vids": [
+				    
+			       ],
+	                       "name": "Shock Therapy",
+	                       "author": "Ben",
+	                       "more": "none",
+	                       "id": 63009517,
+	                       "pass": "Free to copy",
+	                       "percentToQualify": 54,
+	                       "verificationVid": "https://youtu.be/kS29Kmzw55o?si=NPSuQYsaP-e37Jf6",
+	                       
+	                },
+
+	  
     {
       "vids": [],
       "name": "Dolos",
@@ -143,4 +175,5 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
