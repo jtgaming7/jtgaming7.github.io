@@ -54,7 +54,7 @@ const d = {
       "more": "none",
       "id": 63009521,
       "pass": "NA",
-      "percentToQualify": 64,
+      "percentToQualify": 44,
       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl"
     },
     {
@@ -84,7 +84,7 @@ const d = {
       "more": "none",
       "id": 63009524,
       "pass": "NA",
-      "percentToQualify": 55,
+      "percentToQualify": 51,
       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl"
     },
     {
@@ -104,7 +104,7 @@ const d = {
       "more": "none",
       "id": 63009526,
       "pass": "NA",
-      "percentToQualify": 52,
+      "percentToQualify": 44,
       "verificationVid": "https://youtu.be/2ImqD2LMlqs?si=60LCz3xXHz3ZM6Y8"
     },
     {
@@ -143,7 +143,7 @@ const d = {
       "more": "none",
       "id": 63009528,
       "pass": "NA",
-      "percentToQualify": 47,
+      "percentToQualify": 43,
       "verificationVid": ""
     },
     {
@@ -160,7 +160,7 @@ const d = {
       "more": "none",
       "id": 63009528,
       "pass": "NA",
-      "percentToQualify": 57,
+      "percentToQualify": 46,
       "verificationVid": "https://youtu.be/bbhrc1ueYHo?si=H8zZ_jvJb2zHKfeM"
     },
     {
@@ -180,7 +180,7 @@ const d = {
       "more": "none",
       "id": 63009530,
       "pass": "NA",
-      "percentToQualify": 60,
+      "percentToQualify": 45,
       "verificationVid": "https://youtu.be/FZ-j51wPGqM?si=c8aQwYLPgcClq3Ft"
     },
     {
@@ -197,7 +197,7 @@ const d = {
       "more": "none",
       "id": 63009530,
       "pass": "NA",
-      "percentToQualify": 62,
+      "percentToQualify": 52,
       "verificationVid": "https://youtu.be/hqJa0qvtpVs?si=uW6TsUhA_j0I2P6y"
     },
         {
@@ -215,7 +215,7 @@ const d = {
       "more": "none",
       "id": 63009532,
       "pass": "NA",
-      "percentToQualify": 51,
+      "percentToQualify": 42,
       "verificationVid": "https://youtu.be/142ppxD41Vc?si=ba_p9yROeRI3MD_c"
     },
 
@@ -227,8 +227,30 @@ const d = {
       "more": "none",
       "id": 63009531,
       "pass": "NA",
-      "percentToQualify": 55,
+      "percentToQualify": 35,
       "verificationVid": "https://youtu.be/BQYhMN65tcs?si=EgLuUbif8lelJFe6"
+    },
+
+        {
+      "vids": [],
+      "name": "The Lost Existence",
+      "author": "JT",
+      "more": "none",
+      "id": 63009531,
+      "pass": "NA",
+      "percentToQualify": 50,
+      "verificationVid": "https://youtu.be/GN9DSpDG2mo?si=D0NGbv_vocDSHt5G"
+    },
+
+      {
+      "vids": [],
+      "name": "Cataclysm",
+      "author": "Andrew",
+      "more": "none",
+      "id": 63009532,
+      "pass": "NA",
+      "percentToQualify": 45,
+      "verificationVid": ""
     }
 
   
@@ -238,7 +260,7 @@ const d = {
 
     
   ],
-  "version": [1, 0, 4]
+  "version": [1, 0, 8]
 };
 
 d.list.forEach((item, index) => {
@@ -247,6 +269,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
