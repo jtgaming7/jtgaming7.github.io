@@ -4,7 +4,7 @@ const d = {
       "vids": [
         {
           "user": "JT",
-          "link": "https://www.youtube.com/watch?v=kLlV43vJ1SE",
+          "link": "",
           "percent": 48,
           "hz": ""
         }
@@ -269,6 +269,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
