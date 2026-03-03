@@ -207,6 +207,12 @@ const d = {
           "link": "",
           "percent": 100,
           "hz": "144hz"
+        },
+         {
+          "user": "Andrew",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
         }
 
       ],
@@ -231,7 +237,7 @@ const d = {
       "verificationVid": "https://youtu.be/BQYhMN65tcs?si=EgLuUbif8lelJFe6"
     },
 
-        {
+        {    
       "vids": [],
       "name": "The Lost Existence",
       "author": "Ben",
@@ -262,6 +268,12 @@ const d = {
           "percent": 100,
           "hz": "120hz"
         },
+              {
+          "user": "Andrew",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+        },
         {
           "user": "Jonny",
           "link": "",
@@ -288,7 +300,7 @@ const d = {
 
 
     
- {
+           {
       "vids": [
 
         
@@ -300,7 +312,7 @@ const d = {
       "pass": "NA",
       "percentToQualify": 40,
       "verificationVid": ""
-    },
+      },
 
     {
       "vids": [
@@ -318,7 +330,7 @@ const d = {
 
 
     
-  {
+        {
       "vids": [],
       "name": "R3D ROOM",
       "author": "JT",
@@ -329,7 +341,7 @@ const d = {
       "verificationVid": ""
     },
 
-  {
+        {
       "vids": [],
       "name": "STEREO DEMONESS",
       "author": "Kekoa",
@@ -401,6 +413,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
