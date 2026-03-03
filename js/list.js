@@ -85,7 +85,7 @@ const d = {
       "id": 63009524,
       "pass": "NA",
       "percentToQualify": 51,
-      "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl"
+      "verificationVid": "https://www.youtube.com/watch?v=yAuz3Fr0dEc"
     },
     {
       "vids": [],
@@ -401,6 +401,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
