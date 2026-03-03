@@ -162,10 +162,46 @@ const d = {
       "pass": "NA",
       "percentToQualify": 57,
       "verificationVid": "https://youtu.be/bbhrc1ueYHo?si=H8zZ_jvJb2zHKfeM"
+    },
+    {
+      "vids": [],
+      "name": "SUBVERSIVE",
+      "author": "Rees",
+      "more": "none",
+      "id": 63009529,
+      "pass": "NA",
+      "percentToQualify": 54,
+      "verificationVid": ""
+    },
+    {
+      "vids": [],
+      "name": "Artificial Dream",
+      "author": "JT",
+      "more": "none",
+      "id": 63009530,
+      "pass": "NA",
+      "percentToQualify": 60,
+      "verificationVid": "https://youtu.be/FZ-j51wPGqM?si=c8aQwYLPgcClq3Ft"
+    },
+    {
+      "vids": [
+            {
+          "user": "Ben",
+          "link": "",
+          "percent": 100,
+          "hz": "240hz"
+        }
+      ],
+      "name": "Deception Dive",
+      "author": "JT",
+      "more": "none",
+      "id": 63009530,
+      "pass": "NA",
+      "percentToQualify": 62,
+      "verificationVid": "https://youtu.be/hqJa0qvtpVs?si=uW6TsUhA_j0I2P6y"
     }
-    
   ],
-  "version": [1, 0, 0]
+  "version": [1, 0, 4]
 };
 
 d.list.forEach((item, index) => {
@@ -174,6 +210,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
