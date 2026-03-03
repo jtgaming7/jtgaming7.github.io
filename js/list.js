@@ -146,6 +146,7 @@ const d = {
       "percentToQualify": 47,
       "verificationVid": ""
     },
+    {
     "vids": [ 
             {
           "user": "Ben",
@@ -173,6 +174,7 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
+
 
 
 
