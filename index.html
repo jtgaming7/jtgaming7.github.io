@@ -141,7 +141,7 @@
         if (rank > 50) return 0;
         if (parseInt(percent) < parseInt(cutline)) return 0;
 
-        var base = (200 / Math.sqrt(((rank - 1) / 15) + 0.444444)) - 20;
+        var base = (200 / Math.sqrt(((rank - 1) / 50) + 0.444444)) - 50;
         var score = roundNumber(base * (percent / 100), 3);
 
         if (percent != 100) {
@@ -338,6 +338,7 @@
 </body>
 
 </html>
+
 
 
 
