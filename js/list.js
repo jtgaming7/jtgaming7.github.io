@@ -4,8 +4,8 @@ const d = {
       "vids": [
         {
           "user": "JT",
-          "link": "",
-          "percent": 48,
+          "link": "https://youtu.be/brIj5r7m_c4?si=_7gbxnUKwJT2P0To",
+          "percent": 59,
           "hz": "144"
         }
       ],
