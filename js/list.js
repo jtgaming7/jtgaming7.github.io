@@ -554,7 +554,7 @@ const d = {
       "id": 442151,
       "pass": "NA",
       "percentToQualify": 34,
-      "verificationVid": "https://www.youtube.com/watch?v=eA7NLPNpH2c"
+      "verificationVid": "https://youtu.be/ZJ8DuQW0tm4"
     }
 
 
