@@ -394,6 +394,7 @@ const d = {
       "percentToQualify": 40,
       "verificationVid": ""
     },
+  
    {
       "vids": [],
       "name": "Es Dilar Nos",
@@ -404,8 +405,32 @@ const d = {
       "percentToQualify": 37,
       "verificationVid": "https://youtu.be/DJU-t5Hh3XI"
     },
+    {
+      "vids": [
 
-    
+        
+      ],
+      "name": "Two Faced Agony",
+      "author": "Jabez",
+      "more": "none",
+      "id": 1499328,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": ""
+    },
+    {
+      "vids": [
+
+        
+      ],
+      "name": "Kyrie Eleison",
+      "author": "Jabez",
+      "more": "none",
+      "id": 4624278,
+      "pass": "NA",
+      "percentToQualify": 34,
+      "verificationVid": ""
+    },
         {
       "vids": [],
       "name": "R3D ROOM",
@@ -450,10 +475,24 @@ const d = {
       "percentToQualify": 39,
       "verificationVid": ""
     },
- {
+
+     {
       "vids": [
 
         
+      ],
+      "name": "Future Circles",
+      "author": "Jabez",
+      "more": "none",
+      "id": 875955,
+      "pass": "NA",
+      "percentToQualify": 34,
+      "verificationVid": ""
+    },
+        
+ {
+      "vids": [
+
       ],
       "name": "Crimson Clutter",
       "author": "Andy",
