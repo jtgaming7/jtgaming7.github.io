@@ -377,7 +377,7 @@ const d = {
       "more": "none",
       "id": 63009538,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 31,
       "verificationVid": ""
       },
 
@@ -415,7 +415,7 @@ const d = {
       "more": "none",
       "id": 1499328,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 33,
       "verificationVid": ""
     },
     {
@@ -449,7 +449,7 @@ const d = {
       "more": "none",
       "id": 28220417,
       "pass": "NA",
-      "percentToQualify": 37,
+      "percentToQualify": 27,
       "verificationVid": "https://youtu.be/MOGLKyQVjAI"
     },
 
@@ -462,7 +462,7 @@ const d = {
       "more": "none",
       "id": 63009540,
       "pass": "NA",
-      "percentToQualify": 39,
+      "percentToQualify": 30,
       "verificationVid": ""
     },
 
@@ -509,7 +509,7 @@ const d = {
       "more": "none",
       "id": 28220417,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 29,
       "verificationVid": "https://youtu.be/rxAIem0brgk"
     },
     
@@ -542,9 +542,19 @@ const d = {
       "name": "8o",
       "author": "Andy",
       "more": "none",
-      "id": 63009540,
+      "id": 932540,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 38,
+      "verificationVid": ""
+    },
+    {
+      "vids": [],
+      "name": "Acropolis",
+      "author": "Gabe",
+      "more": "none",
+      "id": 735151,
+      "pass": "NA",
+      "percentToQualify": 34,
       "verificationVid": ""
     },
         {
@@ -552,7 +562,7 @@ const d = {
       "name": "Windy Landscape",
       "author": "Ben",
       "more": "none",
-      "id": 442151,
+      "id": 213571,
       "pass": "NA",
       "percentToQualify": 34,
       "verificationVid": "https://youtu.be/ZJ8DuQW0tm4"
@@ -563,7 +573,7 @@ const d = {
       "name": "Magma Bound",
       "author": "Grant",
       "more": "none",
-      "id": 442151,
+      "id": 811351,
       "pass": "NA",
       "percentToQualify": 97,
       "verificationVid": "https://youtu.be/DLbHap9d58A"
