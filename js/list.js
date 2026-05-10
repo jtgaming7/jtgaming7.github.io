@@ -442,16 +442,6 @@ const d = {
       "verificationVid": ""
     },
 
-        {
-      "vids": [],
-      "name": "STEREO DEMONESS",
-      "author": "Kekoa",
-      "more": "none",
-      "id": 63009545,
-      "pass": "NA",
-      "percentToQualify": 40,
-      "verificationVid": ""
-    },
     {
       "vids": [],
       "name": "Tm18",
@@ -499,7 +489,17 @@ const d = {
       "more": "none",
       "id": 63009540,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 37,
+      "verificationVid": ""
+    },
+     {
+      "vids": [],
+      "name": "STEREO DEMONESS",
+      "author": "Kekoa",
+      "more": "none",
+      "id": 63009545,
+      "pass": "NA",
+      "percentToQualify": 35,
       "verificationVid": ""
     },
     {
@@ -512,6 +512,7 @@ const d = {
       "percentToQualify": 40,
       "verificationVid": "https://youtu.be/rxAIem0brgk"
     },
+    
   {
       "vids": [
    {
@@ -555,8 +556,18 @@ const d = {
       "pass": "NA",
       "percentToQualify": 34,
       "verificationVid": "https://youtu.be/ZJ8DuQW0tm4"
-    }
+    },
 
+  {
+      "vids": [],
+      "name": "Magma Bound",
+      "author": "Grant",
+      "more": "none",
+      "id": 442151,
+      "pass": "NA",
+      "percentToQualify": 97,
+      "verificationVid": "https://youtu.be/DLbHap9d58A"
+    }
 
 
 
