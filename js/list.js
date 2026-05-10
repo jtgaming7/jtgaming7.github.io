@@ -59,16 +59,6 @@ const d = {
     },
     {
       "vids": [],
-      "name": "Surge of the Shield",
-      "author": "JT",
-      "more": "none",
-      "id": 63009522,
-      "pass": "NA",
-      "percentToQualify": 51,
-      "verificationVid": "https://www.youtube.com/watch?v=bvObypx7roQ&t=1s"
-    },
-    {
-      "vids": [],
       "name": "Shock Therapy",
       "author": "Ben",
       "more": "none",
@@ -76,6 +66,16 @@ const d = {
       "pass": "NA",
       "percentToQualify": 54,
       "verificationVid": "https://youtu.be/kS29Kmzw55o?si=NPSuQYsaP-e37Jf6"
+    },
+    {
+      "vids": [],
+      "name": "Surge of the Shield",
+      "author": "JT",
+      "more": "none",
+      "id": 63009522,
+      "pass": "NA",
+      "percentToQualify": 51,
+      "verificationVid": "https://www.youtube.com/watch?v=bvObypx7roQ&t=1s"
     },
     {
       "vids": [],
