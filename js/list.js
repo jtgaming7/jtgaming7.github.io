@@ -579,7 +579,16 @@ const d = {
     },
 
   {
-      "vids": [],
+      "vids": [
+      {
+          "user": "Ben",
+          "link": "https://youtu.be/Z-FN5pfTpmE",
+          "percent": 100,
+          "hz": "144hz"
+        }
+
+        
+      ],
       "name": "Magma Bound",
       "author": "Grant",
       "more": "none",
