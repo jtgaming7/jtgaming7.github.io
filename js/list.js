@@ -465,7 +465,7 @@ const d = {
     },
     {
       "vids": [],
-      "name": "Thirtheen",
+      "name": "Thirteen",
       "author": "JT",
       "more": "none",
       "id": 28220417,
