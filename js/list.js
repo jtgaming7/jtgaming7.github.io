@@ -12,7 +12,7 @@ const d = {
       "name": "The Yandere",
       "author": "Ben",
       "more": "none",
-      "id":  54615662,
+      "id":  5461562,
       "pass": "NA",
       "percentToQualify": 46,
       "verificationVid": "https://youtu.be/kLlV43vJ1SE?si=HmQ59kCpPcvJtOUY"
