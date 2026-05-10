@@ -557,6 +557,16 @@ const d = {
       "percentToQualify": 34,
       "verificationVid": ""
     },
+     {
+      "vids": [],
+      "name": "Poltergeist",
+      "author": "Gabe",
+      "more": "none",
+      "id": 29942,
+      "pass": "NA",
+      "percentToQualify": 32,
+      "verificationVid": ""
+    },
         {
       "vids": [],
       "name": "Windy Landscape",
