@@ -360,7 +360,7 @@ const d = {
       "more": "none",
       "id": 63009533,
       "pass": "NA",
-      "percentToQualify": 42,
+      "percentToQualify": 36,
       "verificationVid": "https://youtu.be/kw0J52Le0Ec?si=jpuMr4n1MKOJinK4"
     },
 
@@ -391,7 +391,7 @@ const d = {
       "more": "none",
       "id": 63009548,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 41,
       "verificationVid": ""
     },
   
@@ -402,7 +402,7 @@ const d = {
       "more": "none",
       "id": 6301246,
       "pass": "NA",
-      "percentToQualify": 37,
+      "percentToQualify": 32,
       "verificationVid": "https://youtu.be/DJU-t5Hh3XI"
     },
     {
