@@ -394,7 +394,16 @@ const d = {
       "percentToQualify": 40,
       "verificationVid": ""
     },
-
+   {
+      "vids": [],
+      "name": "Es Dilar Nos",
+      "author": "JT",
+      "more": "none",
+      "id": 6301246,
+      "pass": "NA",
+      "percentToQualify": 37,
+      "verificationVid": "https://youtu.be/DJU-t5Hh3XI"
+    },
 
     
         {
@@ -418,7 +427,16 @@ const d = {
       "percentToQualify": 40,
       "verificationVid": ""
     },
-
+    {
+      "vids": [],
+      "name": "Tm18",
+      "author": "JT",
+      "more": "none",
+      "id": 28220417,
+      "pass": "NA",
+      "percentToQualify": 37,
+      "verificationVid": "https://youtu.be/MOGLKyQVjAI"
+    },
 
 
     
@@ -429,7 +447,7 @@ const d = {
       "more": "none",
       "id": 63009540,
       "pass": "NA",
-      "percentToQualify": 40,
+      "percentToQualify": 39,
       "verificationVid": ""
     },
  {
@@ -445,7 +463,16 @@ const d = {
       "percentToQualify": 40,
       "verificationVid": ""
     },
- 
+    {
+      "vids": [],
+      "name": "Thirtheen",
+      "author": "JT",
+      "more": "none",
+      "id": 28220417,
+      "pass": "NA",
+      "percentToQualify": 40,
+      "verificationVid": "https://youtu.be/rxAIem0brgk"
+    },
   {
       "vids": [
    {
@@ -483,7 +510,7 @@ const d = {
         {
       "vids": [],
       "name": "Windy Landscape",
-      "author": "JT",
+      "author": "Ben",
       "more": "none",
       "id": 442151,
       "pass": "NA",
