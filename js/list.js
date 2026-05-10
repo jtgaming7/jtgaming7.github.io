@@ -89,6 +89,17 @@ const d = {
     },
     {
       "vids": [],
+      "name": "Blade of Justice",
+      "author": "Andrew",
+      "more": "none",
+      "id": 632,
+      "pass": "NA",
+      "percentToQualify": 46,
+      "verificationVid": ""
+    },
+
+    {
+      "vids": [],
       "name": "Phobos",
       "author": "Ben",
       "more": "none",
@@ -106,6 +117,28 @@ const d = {
       "pass": "NA",
       "percentToQualify": 44,
       "verificationVid": "https://youtu.be/2ImqD2LMlqs?si=60LCz3xXHz3ZM6Y8"
+    },
+
+
+
+    {
+      "vids": [
+          {
+          "user": "JT",
+          "link": "https://youtu.be/LP6k3abcpqU",
+          "percent": 70,
+          "hz": "144"
+        }
+
+        
+      ],
+      "name": "Epsilon",
+      "author": "Ben",
+      "more": "none",
+      "id": 6300341,
+      "pass": "NA",
+      "percentToQualify": 47,
+      "verificationVid": "https://youtu.be/tuVG_ldpaTI"
     },
     {
       "vids": [
@@ -428,7 +461,15 @@ const d = {
           "percent": 100,
           "hz": "144hz"
 
+        },
+        {
+         "user": "Gabe",
+          "link": "https://youtu.be/eclXCzCTrFg",
+          "percent": 100,
+          "hz": "144hz"
+
         }
+        
         
       ],
       "name": "8o",
