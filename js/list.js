@@ -420,6 +420,14 @@ const d = {
           "link": "",
           "percent": 100,
           "hz": "144hz"
+        },
+
+        {
+         "user": "Andrew",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+
         }
         
       ],
