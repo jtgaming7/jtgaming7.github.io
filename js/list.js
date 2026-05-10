@@ -479,6 +479,16 @@ const d = {
       "pass": "NA",
       "percentToQualify": 40,
       "verificationVid": ""
+    },
+        {
+      "vids": [],
+      "name": "Windy Landscape",
+      "author": "JT",
+      "more": "none",
+      "id": 442151,
+      "pass": "NA",
+      "percentToQualify": 45,
+      "verificationVid": "https://www.youtube.com/watch?v=eA7NLPNpH2c"
     }
 
 
