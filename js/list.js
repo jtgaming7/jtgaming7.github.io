@@ -396,7 +396,16 @@ const d = {
     },
   
    {
-      "vids": [],
+      "vids": [
+          {
+          "user": "Ben",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+        }
+
+        
+      ],
       "name": "Es Dilar Nos",
       "author": "JT",
       "more": "none",
@@ -404,6 +413,16 @@ const d = {
       "pass": "NA",
       "percentToQualify": 32,
       "verificationVid": "https://youtu.be/DJU-t5Hh3XI"
+    },
+    {
+      "vids": [],
+      "name": "Tigre",
+      "author": "Ben",
+      "more": "none",
+      "id": 60203194,
+      "pass": "NA",
+      "percentToQualify": 32,
+      "verificationVid": "https://www.youtube.com/watch?v=RDSVAjc_3Sw"
     },
     {
       "vids": [
@@ -441,7 +460,6 @@ const d = {
       "percentToQualify": 28,
       "verificationVid": ""
     },
-
     {
       "vids": [],
       "name": "Tm18",
@@ -537,7 +555,6 @@ const d = {
 
         }
         
-        
       ],
       "name": "8o",
       "author": "Andy",
@@ -568,24 +585,22 @@ const d = {
       "verificationVid": ""
     },
         {
-      "vids": [],
+      "vids": [
+      
+
+        
+      ],
       "name": "Windy Landscape",
-      "author": "Ben",
+      "author": "Rees",
       "more": "none",
       "id": 213571,
       "pass": "NA",
       "percentToQualify": 34,
-      "verificationVid": "https://youtu.be/ZJ8DuQW0tm4"
+      "verificationVid": ""
     },
 
   {
       "vids": [
-      {
-          "user": "Ben",
-          "link": "https://youtu.be/Z-FN5pfTpmE",
-          "percent": 100,
-          "hz": "144hz"
-        }
 
         
       ],
