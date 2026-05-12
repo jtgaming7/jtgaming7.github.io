@@ -601,7 +601,12 @@ const d = {
 
   {
       "vids": [
-
+        {
+          "user": "Jabez",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+        }
         
       ],
       "name": "Magma Bound",
