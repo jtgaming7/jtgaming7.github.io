@@ -6,13 +6,13 @@ const d = {
           "user": "JT",
           "link": "https://youtu.be/brIj5r7m_c4?si=_7gbxnUKwJT2P0To",
           "percent": 59,
-          "hz": "144"
+          "hz": "144hz"
         }
       ],
       "name": "The Yandere",
       "author": "Ben",
       "more": "none",
-      "id":  54615662,
+      "id": 54615662,
       "pass": "NA",
       "percentToQualify": 46,
       "verificationVid": "https://youtu.be/kLlV43vJ1SE?si=HmQ59kCpPcvJtOUY"
@@ -97,7 +97,6 @@ const d = {
       "percentToQualify": 46,
       "verificationVid": ""
     },
-
     {
       "vids": [],
       "name": "Phobos",
@@ -118,19 +117,14 @@ const d = {
       "percentToQualify": 44,
       "verificationVid": "https://youtu.be/2ImqD2LMlqs?si=60LCz3xXHz3ZM6Y8"
     },
-
-
-
     {
       "vids": [
-          {
+        {
           "user": "JT",
           "link": "https://youtu.be/LP6k3abcpqU",
           "percent": 70,
-          "hz": "144"
+          "hz": "144hz"
         }
-
-        
       ],
       "name": "Epsilon",
       "author": "Ben",
@@ -169,8 +163,7 @@ const d = {
       "percentToQualify": 42,
       "verificationVid": "https://youtu.be/L2aKNNaGkRY"
     },
-
-     {
+    {
       "vids": [],
       "name": "Conical Depression",
       "author": "Andrew",
@@ -179,12 +172,7 @@ const d = {
       "pass": "NA",
       "percentToQualify": 47,
       "verificationVid": ""
-   
     },
-
-
-
-    
     {
       "vids": [],
       "name": "Aftermath",
@@ -196,14 +184,14 @@ const d = {
       "verificationVid": ""
     },
     {
-    "vids": [ 
-            {
+      "vids": [
+        {
           "user": "Ben",
           "link": "https://youtu.be/weDbuw-G330?si=D3uuu8dZWpvTALNH",
           "percent": 100,
           "hz": "144hz"
         }
-    ],
+      ],
       "name": "Empyrean",
       "author": "JT",
       "more": "none",
@@ -211,8 +199,8 @@ const d = {
       "pass": "NA",
       "percentToQualify": 46,
       "verificationVid": "https://youtu.be/bbhrc1ueYHo?si=H8zZ_jvJb2zHKfeM"
-      },
-      {
+    },
+    {
       "vids": [],
       "name": "SUBVERSIVE",
       "author": "Jabez",
@@ -234,10 +222,16 @@ const d = {
     },
     {
       "vids": [
-            {
+        {
           "user": "Ben",
           "link": "",
           "percent": 100,
+          "hz": "144hz"
+        },
+        {
+          "user": "Andy",
+          "link": "",
+          "percent": 86,
           "hz": "144hz"
         }
       ],
@@ -249,21 +243,20 @@ const d = {
       "percentToQualify": 52,
       "verificationVid": "https://youtu.be/hqJa0qvtpVs?si=uW6TsUhA_j0I2P6y"
     },
-        {
+    {
       "vids": [
-            {
+        {
           "user": "Andy",
           "link": "",
           "percent": 100,
           "hz": "144hz"
         },
-         {
+        {
           "user": "Andrew",
           "link": "",
           "percent": 100,
           "hz": "144hz"
         }
-
       ],
       "name": "Hypersonic",
       "author": "Ben",
@@ -273,9 +266,7 @@ const d = {
       "percentToQualify": 42,
       "verificationVid": "https://youtu.be/142ppxD41Vc?si=ba_p9yROeRI3MD_c"
     },
-
-    
-        {
+    {
       "vids": [],
       "name": "AcropoliX",
       "author": "Ben",
@@ -285,8 +276,7 @@ const d = {
       "percentToQualify": 35,
       "verificationVid": "https://youtu.be/BQYhMN65tcs?si=EgLuUbif8lelJFe6"
     },
-
-        {    
+    {
       "vids": [],
       "name": "The Lost Existence",
       "author": "Ben",
@@ -296,8 +286,7 @@ const d = {
       "percentToQualify": 50,
       "verificationVid": "https://youtu.be/GN9DSpDG2mo?si=D0NGbv_vocDSHt5G"
     },
-
-      {
+    {
       "vids": [],
       "name": "Cataclysm",
       "author": "Andrew",
@@ -307,12 +296,7 @@ const d = {
       "percentToQualify": 45,
       "verificationVid": ""
     },
-
-
-
-
-
-  {
+    {
       "vids": [],
       "name": "Sweater Weather",
       "author": "Andrew",
@@ -322,20 +306,15 @@ const d = {
       "percentToQualify": 48,
       "verificationVid": ""
     },
-    
-
-    
-
-        {
+    {
       "vids": [
-
-            {
+        {
           "user": "Ben",
           "link": "https://youtu.be/64uNWgwmqrk?si=IJFXfdhYM58QkIKd",
           "percent": 100,
           "hz": "120hz"
         },
-              {
+        {
           "user": "Andrew",
           "link": "",
           "percent": 100,
@@ -353,7 +332,6 @@ const d = {
           "percent": 100,
           "hz": "144hz"
         }
-        
       ],
       "name": "Acu",
       "author": "JT",
@@ -363,15 +341,8 @@ const d = {
       "percentToQualify": 36,
       "verificationVid": "https://youtu.be/kw0J52Le0Ec?si=jpuMr4n1MKOJinK4"
     },
-
-
-
-    
-           {
-      "vids": [
-
-        
-      ],
+    {
+      "vids": [],
       "name": "Thanatophobia",
       "author": "Ben",
       "more": "none",
@@ -379,13 +350,9 @@ const d = {
       "pass": "NA",
       "percentToQualify": 31,
       "verificationVid": ""
-      },
-
+    },
     {
-      "vids": [
-
-        
-      ],
+      "vids": [],
       "name": "Primal Redux",
       "author": "Jabez",
       "more": "none",
@@ -394,17 +361,14 @@ const d = {
       "percentToQualify": 41,
       "verificationVid": ""
     },
-  
-   {
+    {
       "vids": [
-          {
+        {
           "user": "Ben",
           "link": "",
           "percent": 100,
           "hz": "144hz"
         }
-
-        
       ],
       "name": "Es Dilar Nos",
       "author": "JT",
@@ -425,10 +389,7 @@ const d = {
       "verificationVid": "https://www.youtube.com/watch?v=RDSVAjc_3Sw"
     },
     {
-      "vids": [
-
-        
-      ],
+      "vids": [],
       "name": "Two Faced Agony",
       "author": "Jabez",
       "more": "none",
@@ -438,10 +399,7 @@ const d = {
       "verificationVid": ""
     },
     {
-      "vids": [
-
-        
-      ],
+      "vids": [],
       "name": "Kyrie Eleison",
       "author": "Jabez",
       "more": "none",
@@ -450,7 +408,7 @@ const d = {
       "percentToQualify": 34,
       "verificationVid": ""
     },
-        {
+    {
       "vids": [],
       "name": "R3D ROOM",
       "author": "JT",
@@ -470,10 +428,7 @@ const d = {
       "percentToQualify": 27,
       "verificationVid": "https://youtu.be/MOGLKyQVjAI"
     },
-
-
-    
- {
+    {
       "vids": [],
       "name": "CraZy III",
       "author": "Ben",
@@ -483,12 +438,8 @@ const d = {
       "percentToQualify": 30,
       "verificationVid": ""
     },
-
-     {
-      "vids": [
-
-        
-      ],
+    {
+      "vids": [],
       "name": "Future Circles",
       "author": "Jabez",
       "more": "none",
@@ -497,11 +448,8 @@ const d = {
       "percentToQualify": 34,
       "verificationVid": ""
     },
-        
- {
-      "vids": [
-
-      ],
+    {
+      "vids": [],
       "name": "Crimson Clutter",
       "author": "Andy",
       "more": "none",
@@ -510,7 +458,7 @@ const d = {
       "percentToQualify": 37,
       "verificationVid": ""
     },
-     {
+    {
       "vids": [],
       "name": "STEREO DEMONESS",
       "author": "Kekoa",
@@ -530,31 +478,26 @@ const d = {
       "percentToQualify": 29,
       "verificationVid": "https://youtu.be/rxAIem0brgk"
     },
-    
-  {
+    {
       "vids": [
-   {
+        {
           "user": "Ben",
           "link": "",
           "percent": 100,
           "hz": "144hz"
         },
-
         {
-         "user": "Andrew",
+          "user": "Andrew",
           "link": "",
           "percent": 100,
           "hz": "144hz"
-
         },
         {
-         "user": "Gabe",
+          "user": "Gabe",
           "link": "https://youtu.be/eclXCzCTrFg",
           "percent": 100,
           "hz": "144hz"
-
         }
-        
       ],
       "name": "8o",
       "author": "Andy",
@@ -574,7 +517,7 @@ const d = {
       "percentToQualify": 34,
       "verificationVid": ""
     },
-     {
+    {
       "vids": [],
       "name": "Poltergeist",
       "author": "Gabe",
@@ -584,12 +527,8 @@ const d = {
       "percentToQualify": 32,
       "verificationVid": ""
     },
-        {
-      "vids": [
-      
-
-        
-      ],
+    {
+      "vids": [],
       "name": "Windy Landscape",
       "author": "Rees",
       "more": "none",
@@ -598,8 +537,7 @@ const d = {
       "percentToQualify": 34,
       "verificationVid": ""
     },
-
-  {
+    {
       "vids": [
         {
           "user": "Jabez",
@@ -607,7 +545,6 @@ const d = {
           "percent": 100,
           "hz": "144hz"
         }
-        
       ],
       "name": "Magma Bound",
       "author": "Grant",
@@ -617,11 +554,6 @@ const d = {
       "percentToQualify": 97,
       "verificationVid": "https://youtu.be/DLbHap9d58A"
     }
-
-
-
-    
-    
   ],
   "version": [1, 0, 13]
 };
@@ -632,12 +564,6 @@ d.list.forEach((item, index) => {
 
 const list = d.list;
 const version = d.version;
-
-
-
-
-
-
 
 
 
