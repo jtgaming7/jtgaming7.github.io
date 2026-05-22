@@ -324,7 +324,7 @@ const d = {
           "user": "Jonny",
           "link": "",
           "percent": 100,
-          "hz": "144hz"
+          "hz": "60hz"
         },
         {
           "user": "Ethan",
@@ -478,7 +478,18 @@ const d = {
       "percentToQualify": 29,
       "verificationVid": "https://youtu.be/rxAIem0brgk"
     },
+
     {
+      "vids": [],
+      "name": "Acropolis",
+      "author": "Gabe",
+      "more": "none",
+      "id": 735151,
+      "pass": "NA",
+      "percentToQualify": 34,
+      "verificationVid": ""
+    },
+        {
       "vids": [
         {
           "user": "Ben",
@@ -505,16 +516,6 @@ const d = {
       "id": 932540,
       "pass": "NA",
       "percentToQualify": 38,
-      "verificationVid": ""
-    },
-    {
-      "vids": [],
-      "name": "Acropolis",
-      "author": "Gabe",
-      "more": "none",
-      "id": 735151,
-      "pass": "NA",
-      "percentToQualify": 34,
       "verificationVid": ""
     },
     {
