@@ -52,7 +52,7 @@ function userList() {
                 }
             } else {
                 var prog = [];
-                prog.push({map : entry.name.toString(), progress : entry2.percent.toString(), link : entry2.link, score : roundNumber(p,3), rank : i+1, hz : (entry2.hz != null ? entry2.hz : "144hz")});
+                prog.push({map : entry.name.toString(), progress : entry2.percent.toString(), link : entry2.link, score : roundNumber(p,3), rank : i+1, hz : (entry2.hz != null ? entry2.hz : "144hz"), legacy : entry2.legacy});
 
                 user_data.push({name : entry2.user, highest : "null", progress : prog, point : p, verified : []});
             }
