@@ -137,7 +137,8 @@
             return +(Math.round(+arr[0] + "e" + sig + (+arr[1] + scale)) + "e-" + scale);
         }
     }
-    function getUserPoint(rank, percent, cutline, hz) {
+    function getUserPoint(rank, percent, cutline, hz, legacy) {
+        if (legacy) return 0;
         if (rank > 50) return 0;
         if (parseInt(percent) < parseInt(cutline)) return 0;
 
@@ -168,7 +169,7 @@
                 }
             }
             var po;
-            po = getUserPoint(i+1, entry2.percent, entry.percentToQualify, entry2.hz);
+            po = getUserPoint(i+1, entry2.percent, entry.percentToQualify, entry2.hz, entry2.legacy);
             if (isLoot == true) {
                 for (var b = 0; b < rank_data.length; b++) {
                     var user_name = rank_data[b].name.toUpperCase();
