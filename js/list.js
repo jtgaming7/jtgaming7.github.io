@@ -571,9 +571,16 @@ const d = {
           "link": "https://www.youtube.com/watch?v=0USFjSch_Xc",
           "percent": 100,
           "hz": "240hz"
+        },
+          {
+          "user": "Ben",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz"
+          "legacy": true
         }
 
-
+        
         
       ],
       "name": "Windy Landscape",
@@ -600,93 +607,12 @@ const d = {
       "pass": "NA",
       "percentToQualify": 97,
       "verificationVid": "https://youtu.be/DLbHap9d58A"
-    },
-     {
-      "vids": [
-
-
-        
-      ],
-      "name": "test 1",
-      "author": "0",
-      "more": "none",
-      "id": 0,
-      "pass": "NA",
-      "percentToQualify": 0,
-      "verificationVid": ""
-    },
-     {
-      "vids": [
-
-
-        
-      ],
-      "name": "test 1",
-      "author": "0",
-      "more": "none",
-      "id": 0,
-      "pass": "NA",
-      "percentToQualify": 0,
-      "verificationVid": ""
-    },
-     {
-      "vids": [
-
-
-        
-      ],
-      "name": "test 1",
-      "author": "0",
-      "more": "none",
-      "id": 0,
-      "pass": "NA",
-      "percentToQualify": 0,
-      "verificationVid": ""
-    },
-     {
-      "vids": [
-
-
-        
-      ],
-      "name": "test 1",
-      "author": "0",
-      "more": "none",
-      "id": 0,
-      "pass": "NA",
-      "percentToQualify": 0,
-      "verificationVid": ""
-    },
-     {
-      "vids": [
-
-
-        
-      ],
-      "name": "test 1",
-      "author": "0",
-      "more": "none",
-      "id": 0,
-      "pass": "NA",
-      "percentToQualify": 0,
-      "verificationVid": ""
-    },
-     {
-      "vids": [
-
-
-        
-      ],
-      "name": "test 1",
-      "author": "0",
-      "more": "none",
-      "id": 0,
-      "pass": "NA",
-      "percentToQualify": 0,
-      "verificationVid": ""
     }
+
+
+    
   ],
-  "version": [2, 0, 0]
+  "version": [2, 0, 4]
 };
 
 d.list.forEach((item, index) => {
