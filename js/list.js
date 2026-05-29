@@ -14,7 +14,7 @@ const d = {
       "more": "none",
       "id": 54615662,
       "pass": "NA",
-      "percentToQualify": 46,
+      "percentToQualify": 42,
       "verificationVid": "https://youtu.be/kLlV43vJ1SE?si=HmQ59kCpPcvJtOUY"
     },
     {
@@ -24,7 +24,7 @@ const d = {
       "more": "none",
       "id": 28220417,
       "pass": "NA",
-      "percentToQualify": 45,
+      "percentToQualify": 54,
       "verificationVid": "https://youtu.be/-p8Z_NU2GB0?si=L3Mmwk_ud5uzXOMl"
     },
     {
@@ -74,7 +74,7 @@ const d = {
       "more": "none",
       "id": 63009523,
       "pass": "NA",
-      "percentToQualify": 54,
+      "percentToQualify": 49,
       "verificationVid": "https://youtu.be/kS29Kmzw55o?si=NPSuQYsaP-e37Jf6"
     },
     {
@@ -207,7 +207,7 @@ const d = {
       "more": "none",
       "id": 63009528,
       "pass": "NA",
-      "percentToQualify": 46,
+      "percentToQualify": 44,
       "verificationVid": "https://youtu.be/bbhrc1ueYHo?si=H8zZ_jvJb2zHKfeM"
     },
     {
@@ -250,7 +250,7 @@ const d = {
       "more": "none",
       "id": 63009530,
       "pass": "NA",
-      "percentToQualify": 52,
+      "percentToQualify": 48,
       "verificationVid": "https://youtu.be/hqJa0qvtpVs?si=uW6TsUhA_j0I2P6y"
     },
     {
@@ -273,7 +273,7 @@ const d = {
       "more": "none",
       "id": 63009532,
       "pass": "NA",
-      "percentToQualify": 42,
+      "percentToQualify": 51,
       "verificationVid": "https://youtu.be/142ppxD41Vc?si=ba_p9yROeRI3MD_c"
     },
     {
@@ -283,7 +283,7 @@ const d = {
       "more": "none",
       "id": 63009531,
       "pass": "NA",
-      "percentToQualify": 35,
+      "percentToQualify": 51,
       "verificationVid": "https://youtu.be/BQYhMN65tcs?si=EgLuUbif8lelJFe6"
     },
     {
@@ -293,7 +293,7 @@ const d = {
       "more": "none",
       "id": 63009531,
       "pass": "NA",
-      "percentToQualify": 50,
+      "percentToQualify": 44,
       "verificationVid": "https://youtu.be/GN9DSpDG2mo?si=D0NGbv_vocDSHt5G"
     },
     {
@@ -375,7 +375,7 @@ const d = {
       "id": 63009538,
       "pass": "NA",
       "percentToQualify": 31,
-      "verificationVid": ""
+      "verificationVid": "https://www.youtube.com/watch?v=4b40QEplB8M&t=11s"
     },
     {
       "vids": [],
