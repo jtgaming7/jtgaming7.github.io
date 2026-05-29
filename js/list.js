@@ -516,7 +516,9 @@ const d = {
     },
 
     {
-      "vids": [],
+      "vids": [
+        
+      ],
       "name": "Acropolis",
       "author": "Gabe",
       "more": "none",
@@ -573,6 +575,13 @@ const d = {
           "hz": "240hz"
         },
           {
+          "user": "JT",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz",
+          "legacy": true
+        },
+        {
           "user": "Ben",
           "link": "",
           "percent": 100,
@@ -593,6 +602,14 @@ const d = {
     },
     {
       "vids": [
+        {
+          "user": "Ben",
+          "link": "",
+          "percent": 100,
+          "hz": "144hz",
+          "legacy": true
+        },
+
         {
           "user": "Jabez",
           "link": "",
