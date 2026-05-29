@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-
+ 
 <head>
     <title>Big Ben Demonlist</title>
     <link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,400,700" rel="stylesheet">
@@ -10,7 +10,7 @@
     <meta name="viewport" content="user-scalable=no">
     <meta charset="UTF-8">
 </head>
-
+ 
 <body>
     <script type='text/javascript' src="js/jquery-3.2.1.min.js"></script>
     <script type='text/javascript' src="js/sweetalert.min.js"></script>
@@ -58,7 +58,6 @@
                 <div><strong>Heres the link to submit a record fools<u><a target="_blank" href="https://forms.gle/4dEvzZ9KarRRQx4u9">Request your record</a></u></strong></div>
                 <br>
                 <div>
-                    
                     <br><br>
                     Rules:
                     <ul>
@@ -72,28 +71,6 @@
             </div>
             <hr>
             <div id="user-rank-info">
-                <style type='text/css'>
-                A:link {
-                    color: black !important;
-                    text-decoration: none;
-                }
-                /* 아직 방문하지 않은경우 */
-                A:visited {
-                    color: black !important;
-                    text-decoration: none;
-                }
-                /* 한번 이상 방문한 링크 처리 */
-                A:active {
-                    color: black !important;
-                    text-decoration: none;
-                }
-                /* 마우스로 클릭하는 순간 */
-                A:hover {
-                    color: rgba(0, 0, 0, 0.5) !important;
-                    text-decoration: none;
-                }
-                /* 마우스 링크 위 올려 놓았을때 */
-                </style>
                 <center><strong>User Score List</strong></center>
                 <div id="user-rank"></div>
             </div>
@@ -111,18 +88,17 @@
     };
     hChange();
     $(window).resize(hChange)
-    // random color
-    var c = 0; //Math.floor(Math.random()*256);
+    var c = 0;
     function cueCSS() {}
     cueCSS();
     $('#hi').prop('style', 'background: hsl(' + c + ', 100%, 0%);')
     </script>
     <script name="userpoint" type="text/javascript">
     function getPoint(rank) {
-          if (rank > 50) {
+        if (rank > 50) {
             return roundNumber(100, 3);
         } else {
-                return roundNumber((200 / Math.sqrt(((rank - 1) / 12.5) + 0.444444)) - 50, 3);
+            return roundNumber((200 / Math.sqrt(((rank - 1) / 12.5) + 0.444444)) - 50, 3);
         }
     }
     function roundNumber(num, scale) {
@@ -141,10 +117,10 @@
         if (legacy) return 0;
         if (rank > 50) return 0;
         if (parseInt(percent) < parseInt(cutline)) return 0;
-
+ 
         var base = (200 / Math.sqrt(((rank - 1) / 12.5) + 0.444444)) - 50;
         var score = roundNumber(base * (percent / 100), 3);
-
+ 
         if (percent != 100) {
             return roundNumber(score - (score / 2), 3);
         } else {
@@ -190,7 +166,7 @@
     for (var i = 0; i < rank_data.length; i++) {
         rank_data[i].point = roundNumber(rank_data[i].point, 3);
     }
-
+ 
     rank_data = userList();
     var rank = `<ol>`;
     for (var i = 0; i < rank_data.length; i++) {
@@ -242,7 +218,6 @@
             $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
         }
     }
-    // handlers
     var load = function(node) {
         var num;
         if (typeof node == 'number') {
@@ -309,7 +284,8 @@
                 if (record.hz == null) {
                     record.hz = "144hz";
                 }
-                $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
+                var userLabel = record.legacy ? `<em>${record.user}</em>` : `<strong>${record.user}</strong>`;
+                $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank">${userLabel} (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
             }
         }
         cueCSS();
@@ -319,7 +295,6 @@
         $(this).addClass('selected');
         load(this);
     })
-    // https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
     function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]]/g, "\\$&");
@@ -337,14 +312,8 @@
         </div>
     </noscript>
 </body>
-
+ 
 </html>
-
-
-
-
-
-
 
 
 
