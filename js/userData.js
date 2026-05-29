@@ -29,7 +29,7 @@ function userList() {
         } else {
             var prog = [];
             var verified = []; verified.push(i+1)
-
+ 
             user_data.push({name : verifier, highest : "null", progress : prog, point : p, verified : verified});
         }
         
@@ -53,7 +53,7 @@ function userList() {
             } else {
                 var prog = [];
                 prog.push({map : entry.name.toString(), progress : entry2.percent.toString(), link : entry2.link, score : roundNumber(p,3), rank : i+1, hz : (entry2.hz != null ? entry2.hz : "144hz"), legacy : entry2.legacy});
-
+ 
                 user_data.push({name : entry2.user, highest : "null", progress : prog, point : p, verified : []});
             }
         }
@@ -69,10 +69,10 @@ function userList() {
         user_data[i].progress.sort(function(a, b) {
             return b["score"] - a["score"];
         });
-
+ 
         var bestRank = Infinity;
         var bestName = "null";
-
+ 
         for (var j = 0; j < user_data[i].verified.length; j++) {
             var vRank = user_data[i].verified[j];
             if (vRank < bestRank) {
@@ -80,7 +80,7 @@ function userList() {
                 bestName = list[vRank - 1].name;
             }
         }
-
+ 
         for (var j = 0; j < user_data[i].progress.length; j++) {
             if (parseInt(user_data[i].progress[j].progress) == 100) {
                 var pRank = user_data[i].progress[j].rank;
@@ -90,24 +90,24 @@ function userList() {
                 }
             }
         }
-
+ 
         user_data[i].highest = bestName;
     }
-
+ 
     return user_data;
 }
-
+ 
 function getUserData(user) {
     var user_data = userList();
-
+ 
     var progresses = '<ol>'; var clears = 0;
-
+ 
     for (var i = 0 ; i < user_data[user].verified.length ; i++) {
         rank = user_data[user].verified[i] - 1;
         clears++;
         progresses = progresses + '<li>' + list[rank].name + ' Verified (#'+(rank+1)+' / UP: '+roundNumber(getUserPoint(rank+1, 100, list[rank].percentToQualify, "144hz")*1, 3)+')</li>';
     }
-
+ 
     for (var i = 0 ; i < user_data[user].progress.length ; i++) {
         var isLegacy = user_data[user].progress[i].legacy;
         var entryText = user_data[user].progress[i].map + ' ' + user_data[user].progress[i].progress + '% (#'+user_data[user].progress[i].rank+' / UP: '+user_data[user].progress[i].score+''+(parseInt(user_data[user].progress[i].hz.replace("hz", "")) >= 120 ? '' : ' / '+user_data[user].progress[i].hz)+')';
@@ -117,7 +117,7 @@ function getUserData(user) {
         }
     }
     progresses = progresses + "</ol>"
-
+ 
     Swal.fire({
         title : "#"+(user+1)+" : "+user_data[user].name,
         html : '<center><strong>Score : '+user_data[user].point + '<br>'+
@@ -127,3 +127,4 @@ function getUserData(user) {
             '</strong></center>'
     });
 }
+ 
