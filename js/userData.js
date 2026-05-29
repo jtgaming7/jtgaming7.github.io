@@ -41,7 +41,7 @@ function userList() {
                     isLoot = true;
                 }
             }
-            var p = getUserPoint(i+1, entry2.percent, entry.percentToQualify, entry2.hz);
+            var p = getUserPoint(i+1, entry2.percent, entry.percentToQualify, entry2.hz, entry2.legacy);
             if (isLoot == true) {
                 for (var b = 0 ; b < user_data.length ; b++) {
                     var user_name = user_data[b].name.toUpperCase(); var data_name = entry2.user.toUpperCase();
