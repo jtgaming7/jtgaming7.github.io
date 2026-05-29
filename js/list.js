@@ -426,6 +426,16 @@ const d = {
       "id": 63009539,
       "pass": "NA",
       "percentToQualify": 28,
+      "verificationVid": "https://youtu.be/tQeQtZZagOc"
+    },
+    {
+      "vids": [],
+      "name": "Taurine",
+      "author": "Michael",
+      "more": "none",
+      "id": 82671886,
+      "pass": "NA",
+      "percentToQualify": 36,
       "verificationVid": ""
     },
     {
