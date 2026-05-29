@@ -307,7 +307,17 @@ const d = {
       "verificationVid": ""
     },
     {
-      "vids": [],
+      "vids": [
+
+          {
+          "user": "Michael",
+          "link": "https://youtu.be/wSugWWbeQug",
+          "percent": 71,
+          "hz": "120hz"
+        }
+
+        
+      ],
       "name": "Sweater Weather",
       "author": "Andrew",
       "more": "none",
@@ -341,6 +351,12 @@ const d = {
           "link": "",
           "percent": 100,
           "hz": "144hz"
+        },
+        {
+          "user": "Michael",
+          "link": "https://www.youtube.com/watch?v=9pebiM1rV3M",
+          "percent": 98,
+          "hz": "240hz"
         }
       ],
       "name": "Acu",
@@ -549,7 +565,17 @@ const d = {
       "verificationVid": ""
     },
     {
-      "vids": [],
+      "vids": [
+       {
+          "user": "Michael",
+          "link": "https://www.youtube.com/watch?v=0USFjSch_Xc",
+          "percent": 100,
+          "hz": "240hz"
+        }
+
+
+        
+      ],
       "name": "Windy Landscape",
       "author": "Rees",
       "more": "none",
