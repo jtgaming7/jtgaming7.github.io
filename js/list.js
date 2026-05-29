@@ -622,7 +622,7 @@ const d = {
       "more": "none",
       "id": 811351,
       "pass": "NA",
-      "percentToQualify": 97,
+      "percentToQualify": 80,
       "verificationVid": "https://youtu.be/DLbHap9d58A"
     }
 
