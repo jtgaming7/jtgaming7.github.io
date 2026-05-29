@@ -576,7 +576,7 @@ const d = {
           "user": "Ben",
           "link": "",
           "percent": 100,
-          "hz": "144hz"
+          "hz": "144hz",
           "legacy": true
         }
 
