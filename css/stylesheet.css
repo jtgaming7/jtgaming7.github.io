@@ -1,6 +1,6 @@
 *{
   font-family: 'Mukta Mahee', sans-serif;
-  color: black !important;
+  color: white !important;
 }
 header{
   position: fixed;
@@ -8,7 +8,7 @@ header{
   left: 0;
   width: 100%;
   height: 100px;
-  background: rgb(200, 200, 200);
+  background: rgb(30, 30, 30);
 }
 #sitename{
   position: fixed;
@@ -16,7 +16,6 @@ header{
   left: 30px;
   font-size: 2em;
 }
-
 #pc-link{
   position: fixed;
   text-align: right;
@@ -25,7 +24,7 @@ header{
   font-size: 1.3em;
 }
 #list{
-  background: rgb(220, 220, 220);
+  background: rgb(40, 40, 40);
   position: fixed;
   top: 100px;
   left: 0;
@@ -33,7 +32,7 @@ header{
   overflow-y: auto;
 }
 #additional-information{
-  background: rgb(220, 220, 220);
+  background: rgb(40, 40, 40);
   position: fixed;
   top: 100px;
   right: 0;
@@ -41,7 +40,7 @@ header{
   overflow-y: auto;
 }
 #info{
-  background: rgb(235, 235, 235);
+  background: rgb(50, 50, 50);
   position: fixed;
   top: 100px;
   left: 30%;
@@ -53,21 +52,18 @@ header{
 }
 .entry{
   padding: 1em;
-
 }
 .entry:nth-child(odd){
-  background: rgb(228, 228, 228);
+  background: rgb(48, 48, 48);
 }
 .entry:hover{
-  background: rgb(202, 202, 202);
+  background: rgb(65, 65, 65);
   cursor: pointer;
-  color:rgba(0, 0, 0,0.5) !important;
+  color: rgba(255, 255, 255, 0.5) !important;
 }
-
-A:hover {color:rgba(0, 0, 0,0.5) !important; text-decoration:none; }
-
+A:hover {color: rgba(255, 255, 255, 0.5) !important; text-decoration:none; }
 .selected{
-  background: rgb(190, 190, 190) !important;
+  background: rgb(80, 80, 80) !important;
 }
 .author{
   font-variant: small-caps;
@@ -75,7 +71,6 @@ A:hover {color:rgba(0, 0, 0,0.5) !important; text-decoration:none; }
 #levelname{
   font-size: 1.7em;
   font-weight: bold;
-
 }
 #levelauthor{
   font-size: 1.1em;
@@ -83,7 +78,6 @@ A:hover {color:rgba(0, 0, 0,0.5) !important; text-decoration:none; }
 #leveldescription{
   font-size: 0.8em;
   font-variant: small-caps;
-
 }
 .vid{
   width: 100%;
@@ -94,7 +88,6 @@ A:hover {color:rgba(0, 0, 0,0.5) !important; text-decoration:none; }
 #records-title{
   font-size: 1.5em;
   font-weight: bold;
-  color: black;
 }
 #records-table{
   width: 100%;
@@ -102,22 +95,20 @@ A:hover {color:rgba(0, 0, 0,0.5) !important; text-decoration:none; }
 #explanation-simple-title{
   font-size: 1.5em;
   font-weight: bold;
-  color: black;
 }
 #explanation-simple{
   font-size: 18px;
   font-weight: bold;
-  color: black;
 }
 .interentry{
   width: 100%;
   padding: 0.5em;
 }
 .record-entry:nth-child(even){
-  background: rgb(231, 231, 231)
+  background: rgb(55, 55, 55);
 }
 .record-entry:nth-child(odd){
-  background: rgb(224, 224, 224)
+  background: rgb(48, 48, 48);
 }
 #block{
   position: fixed;
@@ -126,7 +117,6 @@ A:hover {color:rgba(0, 0, 0,0.5) !important; text-decoration:none; }
   width: 100%;
   height: 100%;
   background: black;
-  color: black;
   font-size: 3em;
 }
 .hacked{
@@ -151,14 +141,42 @@ A:hover {color:rgba(0, 0, 0,0.5) !important; text-decoration:none; }
   left: 0;
   width: 100%;
   height: 100%;
-  background: white;
+  background: rgb(20, 20, 20);
   z-index: 99;
 }
 #user-rank {
   font-size: 20px;
   font-weight: bold;
 }
-
 Swal {
-  color: black;
+  color: white;
+}
+/* SweetAlert v1 */
+.sweet-alert {
+  background: rgb(50, 50, 50) !important;
+}
+.sweet-alert p {
+  color: white !important;
+}
+.sweet-alert h2 {
+  color: white !important;
+}
+.sweet-alert button {
+  background: rgb(80, 80, 80) !important;
+  color: white !important;
+}
+/* SweetAlert v2 (just in case) */
+.swal2-popup {
+  background: rgb(50, 50, 50) !important;
+  color: white !important;
+}
+.swal2-title {
+  color: white !important;
+}
+.swal2-html-container {
+  color: white !important;
+}
+.swal2-confirm {
+  background: rgb(80, 80, 80) !important;
+  color: white !important;
 }
