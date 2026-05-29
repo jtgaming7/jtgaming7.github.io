@@ -42,17 +42,17 @@ const d = {
       "name": "Astral Divinity",
       "author": "Andrew",
       "more": "none",
-      "id": 2,
+      "id": 58811846,
       "pass": "NA",
-      "percentToQualify": 40,
-      "verificationVid": ""
+      "percentToQualify": 46,
+      "verificationVid": "https://www.youtube.com/watch?v=PXeuiYEOpgk"
     },
     {
       "vids": [],
       "name": "Auditory Breaker",
       "author": "Andrew",
       "more": "none",
-      "id": 63009520,
+      "id": 51791710,
       "pass": "NA",
       "percentToQualify": 45,
       "verificationVid": ""
@@ -62,7 +62,7 @@ const d = {
       "name": "Ouroboros Startpos 2",
       "author": "JT",
       "more": "none",
-      "id": 63009521,
+      "id": 94410319,
       "pass": "NA",
       "percentToQualify": 44,
       "verificationVid": "https://youtu.be/CT84uKtqhYo?si=utIC9-V7tRXxmkbl"
@@ -82,7 +82,7 @@ const d = {
       "name": "Surge of the Shield",
       "author": "JT",
       "more": "none",
-      "id": 63009522,
+      "id": 61127840,
       "pass": "NA",
       "percentToQualify": 51,
       "verificationVid": "https://www.youtube.com/watch?v=bvObypx7roQ&t=1s"
@@ -92,7 +92,7 @@ const d = {
       "name": "Dolos",
       "author": "JT",
       "more": "none",
-      "id": 63009524,
+      "id": 58417850,
       "pass": "NA",
       "percentToQualify": 51,
       "verificationVid": "https://www.youtube.com/watch?v=yAuz3Fr0dEc"
@@ -102,7 +102,7 @@ const d = {
       "name": "Blade of Justice",
       "author": "Andrew",
       "more": "none",
-      "id": 632,
+      "id": 35448603,
       "pass": "NA",
       "percentToQualify": 46,
       "verificationVid": ""
@@ -112,7 +112,7 @@ const d = {
       "name": "Phobos",
       "author": "Ben",
       "more": "none",
-      "id": 63009525,
+      "id": 19759411,
       "pass": "NA",
       "percentToQualify": 52,
       "verificationVid": "https://youtu.be/KrCrLQz05KA?si=uMGyR-54Bhy0zp3r"
@@ -122,7 +122,7 @@ const d = {
       "name": "WHITEKNUCKLES",
       "author": "JT",
       "more": "none",
-      "id": 63009526,
+      "id": 102432619,
       "pass": "NA",
       "percentToQualify": 44,
       "verificationVid": "https://youtu.be/2ImqD2LMlqs?si=60LCz3xXHz3ZM6Y8"
@@ -139,7 +139,7 @@ const d = {
       "name": "Epsilon",
       "author": "Ben",
       "more": "none",
-      "id": 6300341,
+      "id": 48843446,
       "pass": "NA",
       "percentToQualify": 47,
       "verificationVid": "https://youtu.be/tuVG_ldpaTI"
@@ -168,7 +168,7 @@ const d = {
       "name": "Bloodbath",
       "author": "Gabe",
       "more": "none",
-      "id": 63009527,
+      "id": 10565740,
       "pass": "NA",
       "percentToQualify": 42,
       "verificationVid": "https://youtu.be/L2aKNNaGkRY"
@@ -178,7 +178,7 @@ const d = {
       "name": "Conical Depression",
       "author": "Andrew",
       "more": "none",
-      "id": 63009332,
+      "id": 750332,
       "pass": "NA",
       "percentToQualify": 47,
       "verificationVid": ""
