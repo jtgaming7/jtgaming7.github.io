@@ -70,13 +70,11 @@ function userList() {
             return b["score"] - a["score"];
         });
 
-        // Recompute highest: best-ranked level the user has completed (lowest rank number),
-        // counting both verifications and 100% progress entries.
         var bestRank = Infinity;
         var bestName = "null";
 
         for (var j = 0; j < user_data[i].verified.length; j++) {
-            var vRank = user_data[i].verified[j]; // 1-indexed
+            var vRank = user_data[i].verified[j];
             if (vRank < bestRank) {
                 bestRank = vRank;
                 bestName = list[vRank - 1].name;
@@ -107,16 +105,16 @@ function getUserData(user) {
     for (var i = 0 ; i < user_data[user].verified.length ; i++) {
         rank = user_data[user].verified[i] - 1;
         clears++;
-        progresses = progresses + '<li>' + list[rank].name + ' Verified </strong>(#'+(rank+1)+' / UP: '+roundNumber(getUserPoint(rank+1, 100, list[rank].percentToQualify, "144hz")*1, 3)+')<strong></a></li>'
+        progresses = progresses + '<li>' + list[rank].name + ' Verified (#'+(rank+1)+' / UP: '+roundNumber(getUserPoint(rank+1, 100, list[rank].percentToQualify, "144hz")*1, 3)+')</li>';
     }
 
     for (var i = 0 ; i < user_data[user].progress.length ; i++) {
         var isLegacy = user_data[user].progress[i].legacy;
         var entryText = user_data[user].progress[i].map + ' ' + user_data[user].progress[i].progress + '% (#'+user_data[user].progress[i].rank+' / UP: '+user_data[user].progress[i].score+''+(parseInt(user_data[user].progress[i].hz.replace("hz", "")) >= 120 ? '' : ' / '+user_data[user].progress[i].hz)+')';
-        progresses = progresses + '<li><a href="'+user_data[user].progress[i].link+'" target="blank_">' + (isLegacy ? '<em>'+entryText+'</em>' : entryText) + '</a></li>';        
-                if (user_data[user].progress[i].progress == 100) {
-                    clears++;
-                }
+        progresses = progresses + '<li><a href="'+user_data[user].progress[i].link+'" target="blank_">' + (isLegacy ? '<em>'+entryText+'</em>' : entryText) + '</a></li>';
+        if (user_data[user].progress[i].progress == 100) {
+            clears++;
+        }
     }
     progresses = progresses + "</ol>"
 
@@ -128,6 +126,4 @@ function getUserData(user) {
             '<br>Record List : '+progresses+'<br>'+
             '</strong></center>'
     });
-
 }
-
