@@ -602,7 +602,7 @@ const d = {
       "verificationVid": "https://youtu.be/DLbHap9d58A"
     }
   ],
-  "version": [1, 0, 13]
+  "version": [2, 0, 0]
 };
 
 d.list.forEach((item, index) => {
