@@ -308,7 +308,7 @@
                 if (record.hz == null) {
                     record.hz = "144hz";
                 }
-                $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>) ${record.hz}</div>`).appendTo(record_node)
+                $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank"><strong>${record.user}</strong> (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
             }
         }
         cueCSS();
