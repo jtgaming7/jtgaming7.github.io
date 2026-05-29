@@ -113,9 +113,10 @@ function getUserData(user) {
     for (var i = 0 ; i < user_data[user].progress.length ; i++) {
         var isLegacy = user_data[user].progress[i].legacy;
         var entryText = user_data[user].progress[i].map + ' ' + user_data[user].progress[i].progress + '% (#'+user_data[user].progress[i].rank+' / UP: '+user_data[user].progress[i].score+''+(parseInt(user_data[user].progress[i].hz.replace("hz", "")) >= 120 ? '' : ' / '+user_data[user].progress[i].hz)+')';
-        progresses = progresses + '<li><a href="'+user_data[user].progress[i].link+'" target="blank_">' + (isLegacy ? '<em>'+entryText+'</em>' : entryText) + '</a></li>'        if (user_data[user].progress[i].progress == 100) {
-            clears++;
-        }
+        progresses = progresses + '<li><a href="'+user_data[user].progress[i].link+'" target="blank_">' + (isLegacy ? '<em>'+entryText+'</em>' : entryText) + '</a></li>';        
+                if (user_data[user].progress[i].progress == 100) {
+                    clears++;
+                }
     }
     progresses = progresses + "</ol>"
 
