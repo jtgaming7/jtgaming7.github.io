@@ -37,6 +37,15 @@ const d = {
       "percentToQualify": 49,
       "verificationVid": "https://youtu.be/IaofML5KTdQ?si=jQ1Ig7Gzq-k7y1ZK"
     },
+        {
+      "vids": [],
+      "name": "Astral Divinity",
+      "author": "Andrew",
+      "more": "none",
+      "id": 2,
+      "pass": "NA",
+      "percentToQualify": 40,
+      
     {
       "vids": [],
       "name": "Auditory Breaker",
