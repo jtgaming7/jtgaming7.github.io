@@ -178,7 +178,7 @@ const d = {
       "name": "Conical Depression",
       "author": "Andrew",
       "more": "none",
-      "id": 750332,
+      "id": 17711004,
       "pass": "NA",
       "percentToQualify": 47,
       "verificationVid": ""
@@ -188,7 +188,7 @@ const d = {
       "name": "Aftermath",
       "author": "Andrew",
       "more": "none",
-      "id": 63009528,
+      "id": 25610878,
       "pass": "NA",
       "percentToQualify": 43,
       "verificationVid": ""
@@ -205,7 +205,7 @@ const d = {
       "name": "Empyrean",
       "author": "JT",
       "more": "none",
-      "id": 63009528,
+      "id": 92957491,
       "pass": "NA",
       "percentToQualify": 44,
       "verificationVid": "https://youtu.be/bbhrc1ueYHo?si=H8zZ_jvJb2zHKfeM"
@@ -215,7 +215,7 @@ const d = {
       "name": "SUBVERSIVE",
       "author": "Jabez",
       "more": "none",
-      "id": 63009529,
+      "id": 20937583,
       "pass": "NA",
       "percentToQualify": 54,
       "verificationVid": ""
@@ -225,7 +225,7 @@ const d = {
       "name": "Artificial Dream",
       "author": "JT",
       "more": "none",
-      "id": 63009530,
+      "id": 38550757,
       "pass": "NA",
       "percentToQualify": 45,
       "verificationVid": "https://youtu.be/FZ-j51wPGqM?si=c8aQwYLPgcClq3Ft"
@@ -248,7 +248,7 @@ const d = {
       "name": "Deception Dive",
       "author": "JT",
       "more": "none",
-      "id": 63009530,
+      "id": 34379100,
       "pass": "NA",
       "percentToQualify": 48,
       "verificationVid": "https://youtu.be/hqJa0qvtpVs?si=uW6TsUhA_j0I2P6y"
@@ -271,7 +271,7 @@ const d = {
       "name": "Hypersonic",
       "author": "Ben",
       "more": "none",
-      "id": 63009532,
+      "id": 30219145,
       "pass": "NA",
       "percentToQualify": 51,
       "verificationVid": "https://youtu.be/142ppxD41Vc?si=ba_p9yROeRI3MD_c"
@@ -281,7 +281,7 @@ const d = {
       "name": "AcropoliX",
       "author": "Ben",
       "more": "none",
-      "id": 63009531,
+      "id": 19300593,
       "pass": "NA",
       "percentToQualify": 51,
       "verificationVid": "https://youtu.be/BQYhMN65tcs?si=EgLuUbif8lelJFe6"
@@ -291,7 +291,7 @@ const d = {
       "name": "The Lost Existence",
       "author": "Ben",
       "more": "none",
-      "id": 63009531,
+      "id": 45239692,
       "pass": "NA",
       "percentToQualify": 44,
       "verificationVid": "https://youtu.be/GN9DSpDG2mo?si=D0NGbv_vocDSHt5G"
@@ -301,7 +301,7 @@ const d = {
       "name": "Cataclysm",
       "author": "Andrew",
       "more": "none",
-      "id": 63009532,
+      "id": 3979721,
       "pass": "NA",
       "percentToQualify": 45,
       "verificationVid": ""
@@ -321,7 +321,7 @@ const d = {
       "name": "Sweater Weather",
       "author": "Andrew",
       "more": "none",
-      "id": 63009672,
+      "id": 81148582,
       "pass": "NA",
       "percentToQualify": 48,
       "verificationVid": ""
@@ -362,7 +362,7 @@ const d = {
       "name": "Acu",
       "author": "JT",
       "more": "none",
-      "id": 63009533,
+      "id": 61079355,
       "pass": "NA",
       "percentToQualify": 36,
       "verificationVid": "https://youtu.be/kw0J52Le0Ec?si=jpuMr4n1MKOJinK4"
@@ -372,7 +372,7 @@ const d = {
       "name": "Thanatophobia",
       "author": "Ben",
       "more": "none",
-      "id": 63009538,
+      "id": 62809982,
       "pass": "NA",
       "percentToQualify": 31,
       "verificationVid": "https://www.youtube.com/watch?v=4b40QEplB8M&t=11s"
@@ -382,7 +382,7 @@ const d = {
       "name": "Primal Redux",
       "author": "Jabez",
       "more": "none",
-      "id": 63009548,
+      "id": 31772194,
       "pass": "NA",
       "percentToQualify": 41,
       "verificationVid": ""
@@ -399,7 +399,7 @@ const d = {
       "name": "Es Dilar Nos",
       "author": "JT",
       "more": "none",
-      "id": 6301246,
+      "id": 45023719,
       "pass": "NA",
       "percentToQualify": 32,
       "verificationVid": "https://youtu.be/DJU-t5Hh3XI"
@@ -419,7 +419,7 @@ const d = {
       "name": "Two Faced Agony",
       "author": "Jabez",
       "more": "none",
-      "id": 1499328,
+      "id": 55693430,
       "pass": "NA",
       "percentToQualify": 33,
       "verificationVid": ""
@@ -429,7 +429,7 @@ const d = {
       "name": "Kyrie Eleison",
       "author": "Jabez",
       "more": "none",
-      "id": 4624278,
+      "id": 57638361,
       "pass": "NA",
       "percentToQualify": 34,
       "verificationVid": ""
@@ -439,7 +439,7 @@ const d = {
       "name": "R3D ROOM",
       "author": "JT",
       "more": "none",
-      "id": 63009539,
+      "id": 97475510,
       "pass": "NA",
       "percentToQualify": 28,
       "verificationVid": "https://youtu.be/tQeQtZZagOc"
@@ -459,7 +459,7 @@ const d = {
       "name": "Tm18",
       "author": "JT",
       "more": "none",
-      "id": 28220417,
+      "id": 57903107,
       "pass": "NA",
       "percentToQualify": 27,
       "verificationVid": "https://youtu.be/MOGLKyQVjAI"
@@ -469,7 +469,7 @@ const d = {
       "name": "CraZy III",
       "author": "Ben",
       "more": "none",
-      "id": 63009540,
+      "id": 73725400,
       "pass": "NA",
       "percentToQualify": 30,
       "verificationVid": ""
@@ -479,7 +479,7 @@ const d = {
       "name": "Future Circles",
       "author": "Jabez",
       "more": "none",
-      "id": 875955,
+      "id": 21306256,
       "pass": "NA",
       "percentToQualify": 34,
       "verificationVid": ""
@@ -489,7 +489,7 @@ const d = {
       "name": "Crimson Clutter",
       "author": "Andy",
       "more": "none",
-      "id": 63009540,
+      "id": 9700312,
       "pass": "NA",
       "percentToQualify": 37,
       "verificationVid": ""
@@ -499,7 +499,7 @@ const d = {
       "name": "STEREO DEMONESS",
       "author": "Kekoa",
       "more": "none",
-      "id": 63009545,
+      "id": 260693,
       "pass": "NA",
       "percentToQualify": 35,
       "verificationVid": ""
@@ -509,7 +509,7 @@ const d = {
       "name": "Thirteen",
       "author": "JT",
       "more": "none",
-      "id": 28220417,
+      "id": 56877453,
       "pass": "NA",
       "percentToQualify": 29,
       "verificationVid": "https://youtu.be/rxAIem0brgk"
@@ -595,7 +595,7 @@ const d = {
       "name": "Windy Landscape",
       "author": "Rees",
       "more": "none",
-      "id": 213571,
+      "id": 4957691,
       "pass": "NA",
       "percentToQualify": 34,
       "verificationVid": ""
@@ -620,7 +620,7 @@ const d = {
       "name": "Magma Bound",
       "author": "Grant",
       "more": "none",
-      "id": 811351,
+      "id": 56568010,
       "pass": "NA",
       "percentToQualify": 80,
       "verificationVid": "https://youtu.be/DLbHap9d58A"
@@ -629,7 +629,7 @@ const d = {
 
     
   ],
-  "version": [2, 0, 4]
+  "version": [2, 0, 8]
 };
 
 d.list.forEach((item, index) => {
