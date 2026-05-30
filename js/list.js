@@ -506,16 +506,6 @@ const d = {
       "percentToQualify": 29,
       "verificationVid": "https://youtu.be/rxAIem0brgk"
     },
-    {
-      "vids": [],
-      "name": "STEREO DEMONESS",
-      "author": "Kekoa",
-      "more": "none",
-      "id": 260693,
-      "pass": "NA",
-      "percentToQualify": 35,
-      "verificationVid": ""
-    },
 
     {
       "vids": [
@@ -556,6 +546,16 @@ const d = {
       "id": 932540,
       "pass": "NA",
       "percentToQualify": 38,
+      "verificationVid": ""
+    },
+        {
+      "vids": [],
+      "name": "STEREO DEMONESS",
+      "author": "Kekoa",
+      "more": "none",
+      "id": 260693,
+      "pass": "NA",
+      "percentToQualify": 35,
       "verificationVid": ""
     },
     {
