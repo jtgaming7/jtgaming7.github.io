@@ -454,16 +454,7 @@ const d = {
       "percentToQualify": 36,
       "verificationVid": ""
     },
-    {
-      "vids": [],
-      "name": "Tm18",
-      "author": "JT",
-      "more": "none",
-      "id": 57903107,
-      "pass": "NA",
-      "percentToQualify": 27,
-      "verificationVid": "https://youtu.be/MOGLKyQVjAI"
-    },
+
     {
       "vids": [],
       "name": "CraZy III",
@@ -476,15 +467,15 @@ const d = {
     },
     {
       "vids": [],
-      "name": "Future Circles",
-      "author": "Jabez",
+      "name": "Tm18",
+      "author": "JT",
       "more": "none",
-      "id": 21306256,
+      "id": 57903107,
       "pass": "NA",
-      "percentToQualify": 34,
-      "verificationVid": ""
+      "percentToQualify": 27,
+      "verificationVid": "https://youtu.be/MOGLKyQVjAI"
     },
-    {
+      {
       "vids": [],
       "name": "Crimson Clutter",
       "author": "Andy",
@@ -494,14 +485,15 @@ const d = {
       "percentToQualify": 37,
       "verificationVid": ""
     },
+    
     {
       "vids": [],
-      "name": "STEREO DEMONESS",
-      "author": "Kekoa",
+      "name": "Future Circles",
+      "author": "Jabez",
       "more": "none",
-      "id": 260693,
+      "id": 21306256,
       "pass": "NA",
-      "percentToQualify": 35,
+      "percentToQualify": 34,
       "verificationVid": ""
     },
     {
@@ -513,6 +505,16 @@ const d = {
       "pass": "NA",
       "percentToQualify": 29,
       "verificationVid": "https://youtu.be/rxAIem0brgk"
+    },
+    {
+      "vids": [],
+      "name": "STEREO DEMONESS",
+      "author": "Kekoa",
+      "more": "none",
+      "id": 260693,
+      "pass": "NA",
+      "percentToQualify": 35,
+      "verificationVid": ""
     },
 
     {
