@@ -196,8 +196,9 @@
                 num = $(node).attr('value')
             }
             var entry = list[num];
-            if (!entry) {
-                load(0)
+            if (!entry || list.length === 0) {
+                console.warn("No entry found at index", num);
+                return;
             } else {
                 if (entry.verificationVid !== null && entry.verificationVid !== "") {
                     entry.verificationVid = entry.verificationVid
