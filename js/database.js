@@ -54,3 +54,23 @@ async function fetchList() {
  
   return list;
 }
+
+
+
+async function fetchChangelog() {
+  const res = await fetch(
+    `${SUPABASE_URL}/rest/v1/changelog?select=*&order=date.desc`,
+    {
+      headers: {
+        "apikey": SUPABASE_KEY,
+        "Authorization": `Bearer ${SUPABASE_KEY}`
+      }
+    }
+  );
+  const data = await res.json();
+  if (!Array.isArray(data)) {
+    console.error("Changelog fetch failed:", data);
+    return [];
+  }
+  return data;
+}
