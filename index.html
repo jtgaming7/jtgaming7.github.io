@@ -98,7 +98,7 @@
     </script>
     <script name="userpoint" type="text/javascript">
     function getPoint(rank) {
-        if (rank > 50) {
+        if (rank > 55) {
             return roundNumber(100, 3);
         } else {
             return roundNumber((200 / Math.sqrt(((rank - 1) / 6.25) + 0.444444)) - 50, 3);
@@ -144,7 +144,7 @@
    }
     function getUserPoint(rank, percent, cutline, hz, legacy) {
         if (legacy) return 0;
-        if (rank > 50) return 0;
+        if (rank > 55) return 0;
         if (parseInt(percent) < parseInt(cutline)) return 0;
  
         var base = (200 / Math.sqrt(((rank - 1) / 6.25) + 0.444444)) - 50;
@@ -237,7 +237,7 @@
                 }
                 var rank = 0;
                 if (entry.key == null) {
-                    rank = 50 + (legacy_count - entry.legacyKey);
+                    rank = 55 + (legacy_count - entry.legacyKey);
                 } else {
                     rank = (entry.key) + 1;
                 }
