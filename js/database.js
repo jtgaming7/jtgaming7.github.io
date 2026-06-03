@@ -38,14 +38,14 @@ async function fetchList() {
     author: level.author,
     id: level.gd_id,
     pass: level.pass,
-    percentToQualify: level.percent_to_qualify,
+    percentToQualify: parseInt(level.percent_to_qualify),
     verificationVid: level.verification_vid,
     more: "none",
     vids: records
       .filter(r => r.level_id === level.id)
       .map(r => ({
         user: r.username,
-        percent: r.percent,
+        percent: parseInt(r.percent),
         hz: r.hz,
         link: r.link,
         legacy: r.legacy
@@ -54,9 +54,7 @@ async function fetchList() {
  
   return list;
 }
-
-
-
+ 
 async function fetchChangelog() {
   const res = await fetch(
     `${SUPABASE_URL}/rest/v1/changelog?select=*&order=date.desc`,
