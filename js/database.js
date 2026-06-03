@@ -11,8 +11,11 @@ async function fetchList() {
       }
     }
   );
-  const levels = await levelsRes.json();
-
+  const records = await recordsRes.json();
+  if (!Array.isArray(records)) {
+      console.error("Records fetch failed:", records);
+      throw new Error("Failed to fetch records: " + JSON.stringify(records));
+    }
   const recordsRes = await fetch(
     `${SUPABASE_URL}/rest/v1/records?select=*`,
     {
