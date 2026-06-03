@@ -237,7 +237,7 @@
                 }
                 var rank = 0;
                 if (entry.key == null) {
-                    rank = 55 + (legacy_count - entry.legacyKey);
+                    rank = 50 + (legacy_count - entry.legacyKey);
                 } else {
                     rank = (entry.key) + 1;
                 }
@@ -249,7 +249,7 @@
                         hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
                     }
                 }
-                $("#levelname").html((rank > 55 ? `` : `#` + rank + ` `) + entry.name + hacked);
+                $("#levelname").html((rank > 80 ? `` : `#` + rank + ` `) + entry.name + hacked);
                 var author = entry.author;
                 var final_author;
                 if (author.includes(' more ')) {
