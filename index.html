@@ -249,7 +249,7 @@
                         hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
                     }
                 }
-                $("#levelname").html((rank > 80 ? `` : `#` + rank + ` `) + entry.name + hacked);
+                $("#levelname").html((rank > 50 ? `` : `#` + rank + ` `) + entry.name + hacked);
                 var author = entry.author;
                 var final_author;
                 if (author.includes(' more ')) {
