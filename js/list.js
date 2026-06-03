@@ -548,16 +548,7 @@ const d = {
       "percentToQualify": 38,
       "verificationVid": ""
     },
-        {
-      "vids": [],
-      "name": "STEREO DEMONESS",
-      "author": "Kekoa",
-      "more": "none",
-      "id": 260693,
-      "pass": "NA",
-      "percentToQualify": 35,
-      "verificationVid": ""
-    },
+    
     {
       "vids": [],
       "name": "Poltergeist",
