@@ -2,7 +2,6 @@ const SUPABASE_URL = "https://gaxusjfogkdkpyhynfad.supabase.co";
 const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdheHVzamZvZ2tka3B5aHluZmFkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA1MDQxNzIsImV4cCI6MjA5NjA4MDE3Mn0._iP-H38petYh5GLYK5NZNxleAA4fxKCF7xSK0KqRNCI";
 
 async function fetchList() {
-  // Fetch levels
   const levelsRes = await fetch(
     `${SUPABASE_URL}/rest/v1/levels?select=*&order=rank_position.asc`,
     {
@@ -14,9 +13,8 @@ async function fetchList() {
   );
   const levels = await levelsRes.json();
 
-  // Fetch approved records
   const recordsRes = await fetch(
-    `${SUPABASE_URL}/rest/v1/records?select=*&approved=eq.true`,
+    `${SUPABASE_URL}/rest/v1/records?select=*`,
     {
       headers: {
         "apikey": SUPABASE_KEY,
@@ -26,7 +24,6 @@ async function fetchList() {
   );
   const records = await recordsRes.json();
 
-  // Build the list in the same format your existing code expects
   const list = levels.map((level, index) => ({
     key: index,
     name: level.name,
