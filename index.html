@@ -99,7 +99,7 @@
     <script name="userpoint" type="text/javascript">
     function getPoint(rank) {
         if (rank > 50) {
-            return roundNumber(100, 3);
+            return 0;
         } else {
             return roundNumber(250 * Math.pow(0.917, rank - 1), 3);
         }
@@ -117,31 +117,30 @@
         }
     }
     async function showChangelog() {
-     const changelog = await fetchChangelog();
-
-     // Group entries by date
-     var grouped = {};
-     changelog.forEach(entry => {
-         var d = entry.date;
-         if (!grouped[d]) grouped[d] = [];
-         grouped[d].push(entry.description);
-     });
-
-     var html = '';
-     Object.keys(grouped).forEach(date => {
-         html += `<strong>${date}</strong><ul>`;
-         grouped[date].forEach(desc => {
-             html += `<li>${desc}</li>`;
-         });
-         html += `</ul>`;
-     });
-
-     Swal.fire({
-         title: 'Changelog',
-         html: html,
-         width: 600
-     });
-   }
+        const changelog = await fetchChangelog();
+ 
+        var grouped = {};
+        changelog.forEach(entry => {
+            var d = entry.date;
+            if (!grouped[d]) grouped[d] = [];
+            grouped[d].push(entry.description);
+        });
+ 
+        var html = '';
+        Object.keys(grouped).forEach(date => {
+            html += `<strong>${date}</strong><ul>`;
+            grouped[date].forEach(desc => {
+                html += `<li>${desc}</li>`;
+            });
+            html += `</ul>`;
+        });
+ 
+        Swal.fire({
+            title: 'Changelog',
+            html: '<div style="max-height: 400px; overflow-y: auto; text-align: left;">' + html + '</div>',
+            width: 600
+        });
+    }
     function getUserPoint(rank, percent, cutline, hz, legacy) {
         if (legacy) return 0;
         if (rank > 50) return 0;
@@ -210,10 +209,12 @@
         });
         for (var i = 0; i < list.length; i++) {
             var entry = list[i];
+            var isLegacy = (i + 1) > 50;
+            var nameDisplay = isLegacy ? `<em>${entry.name}</em>` : `<strong>${entry.name}</strong>`;
             if (entry.key != null) {
-                $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i+1}: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+                $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i+1}: ${nameDisplay} by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
             } else {
-                $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: <strong>${entry.name}</strong> by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
+                $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`<strong>Legacy</strong>: ${nameDisplay} by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
             }
         }
         var load = function(node) {
@@ -227,65 +228,66 @@
             if (!entry || list.length === 0) {
                 console.warn("No entry found at index", num);
                 return;
+            }
+            if (entry.verificationVid !== null && entry.verificationVid !== "") {
+                entry.verificationVid = entry.verificationVid
+                    .replace(/www\.youtube.com\/watch\?v=/gi, '')
+                    .replace(/\/youtu\.be/gi, '')
+                    .replace(/&t=\d+s/gi, '')
+                    .replace(/https:\/\//gi, '')
+            }
+            var rank = 0;
+            if (entry.key == null) {
+                rank = 50 + (legacy_count - entry.legacyKey);
             } else {
-                if (entry.verificationVid !== null && entry.verificationVid !== "") {
-                    entry.verificationVid = entry.verificationVid
-                        .replace(/www\.youtube.com\/watch\?v=/gi, '')
-                        .replace(/\/youtu\.be/gi, '')
-                        .replace(/&t=\d+s/gi, '')
-                        .replace(/https:\/\//gi, '')
-                }
-                var rank = 0;
-                if (entry.key == null) {
-                    rank = 50 + (legacy_count - entry.legacyKey);
+                rank = (entry.key) + 1;
+            }
+            var hacked = "";
+            if (entry.hacked != null) {
+                if (entry.hacked) {
+                    hacked = " <span class='hacked'>HACKED</span>";
                 } else {
-                    rank = (entry.key) + 1;
+                    hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
                 }
-                var hacked = "";
-                if (entry.hacked != null) {
-                    if (entry.hacked) {
-                        hacked = " <span class='hacked'>HACKED</span>";
-                    } else {
-                        hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
-                    }
+            }
+            $("#levelname").html((rank > 50 ? `` : `#` + rank + ` `) + entry.name + hacked);
+            var author = entry.author;
+            var final_author;
+            if (author.includes(' more ')) {
+                final_author = author.replace(' more ', ' <u><span onclick="getAuthors(' + rank + ')" style="cursor:pointer">more</u> ');
+            } else {
+                final_author = author;
+            }
+            final_author = final_author.replace(' [', ', Verified by ').replace(']', "");
+            $("#inside-level-author").empty();
+            $("#inside-level-author").html(final_author);
+            $("#leveldescription").empty();
+            $("#leveldescription").text(entry.desc);
+            $("#levelvid").empty();
+            if (entry.verificationVid !== null && entry.verificationVid !== "") {
+                $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
+            }
+            $("#levelqualify").text(entry.percentToQualify);
+            $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
+            $("#records-id").html(`<strong>Level ID : ${entry.id}</strong>`);
+            $("#records-pass").html(`<strong>Level Password : ${entry.pass}</strong>`);
+            $("#inside-level-author").html(final_author);
+            $(record_node).empty();
+            entry.vids.sort(function(a, b) {
+                return b.percent - a.percent;
+            });
+            for (var j = 0; j < entry.vids.length; j++) {
+                var record = entry.vids[j];
+                if (!record.link) {
+                    record.link = "";
+                } else if (!record.link.includes('https://')) {
+                    record.link = "https://" + record.link;
                 }
-                $("#levelname").html((rank > 50 ? `` : `#` + rank + ` `) + entry.name + hacked);
-                var author = entry.author;
-                var final_author;
-                if (author.includes(' more ')) {
-                    final_author = author.replace(' more ', ' <u><span onclick="getAuthors(' + rank + ')" style="cursor:pointer">more</u> ');
-                } else {
-                    final_author = author
+                if (record.hz == null) {
+                    record.hz = "144hz";
                 }
-                final_author = final_author.replace(' [', ', Verified by ').replace(']', "")
-                $("#inside-level-author").empty();
-                $("#inside-level-author").html(final_author);
-                $("#leveldescription").empty();
-                $("#leveldescription").text(entry.desc);
-                $("#levelvid").empty();
-                if (entry.verificationVid !== null && entry.verificationVid !== "") {
-                    $("#levelvid").html(`<hr><iframe class="vid" height="300" src="https://www.youtube.com/embed/${entry.verificationVid}?rel=0" frameborder="0" allowfullscreen></iframe>`);
-                }
-                $("#levelqualify").text(entry.percentToQualify);
-                $("#records-score").html(`<strong>Points when completed : ${getPoint(rank)}</strong>`);
-                $("#records-id").html(`<strong>Level ID : ${entry.id}</strong>`);
-                $("#records-pass").html(`<strong>Level Password : ${entry.pass}</strong>`);
-                $("#inside-level-author").html(final_author);
-                $(record_node).empty();
-                entry.vids.sort(function(a, b) {
-                    return b.percent - a.percent;
-                });
-                for (var j = 0; j < entry.vids.length; j++) {
-                    var record = entry.vids[j];
-                    if (!record.link.includes('https://')) {
-                        record.link = "https://" + record.link;
-                    }
-                    if (record.hz == null) {
-                        record.hz = "144hz";
-                    }
-                    var userLabel = record.legacy ? `<em>${record.user}</em>` : `<strong>${record.user}</strong>`;
-                    $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank">${userLabel} (<em>${record.percent}%</em>)</div>`).appendTo(record_node)
-                }
+                var userLabel = record.legacy ? `<em>${record.user}</em>` : `<strong>${record.user}</strong>`;
+                $("<div>").addClass('record-entry').html(`<div class='interentry'><a href="${record.link}" target="_blank">${userLabel} (<em>${record.percent}%</em>)</a></div>`).appendTo(record_node);
             }
             cueCSS();
         };
