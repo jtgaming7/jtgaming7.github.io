@@ -101,7 +101,7 @@
         if (rank > 50) {
             return roundNumber(100, 3);
         } else {
-            return roundNumber(250 * Math.pow(0.921, rank - 1), 3);
+            return roundNumber(250 * Math.pow(0.927, rank - 1), 3);
         }
     }
     function roundNumber(num, scale) {
@@ -147,7 +147,7 @@
         if (rank > 50) return 0;
         if (parseInt(percent) < parseInt(cutline)) return 0;
  
-        var base = 250 * Math.pow(0.921, rank - 1);
+        var base = 250 * Math.pow(0.927, rank - 1);
         var score = roundNumber(base * (percent / 100), 3);
  
         if (percent != 100) {
