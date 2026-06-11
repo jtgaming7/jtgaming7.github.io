@@ -1,5 +1,5 @@
 const SUPABASE_URL = "https://gaxusjfogkdkpyhynfad.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ0.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdheHVzamZvZ2tka3B5aHluZmFkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA1MDQxNzIsImV4cCI6MjA5NjA4MDE3Mn0._iP-H38petYh5GLYK5NZNxleAA4fxKCF7xSK0KqRNCI";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdheHVzamZvZ2tka3B5aHluZmFkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA1MDQxNzIsImV4cCI6MjA5NjA4MDE3Mn0._iP-H38petYh5GLYK5NZNxleAA4fxKCF7xSK0KqRNCI";
 
 async function fetchList() {
   const levelsRes = await fetch(
