@@ -98,7 +98,7 @@
     </script>
     <script name="userpoint" type="text/javascript">
     function getPoint(rank) {
-        if (rank > 50) {
+        if (rank > 75) {
             return 0;
         } else {
             return roundNumber(250 * Math.pow(0.917, rank - 1), 3);
@@ -143,7 +143,7 @@
     }
     function getUserPoint(rank, percent, cutline, hz, legacy) {
         if (legacy) return 0;
-        if (rank > 50) return 0;
+        if (rank > 75) return 0;
         if (parseInt(percent) < parseInt(cutline)) return 0;
  
         var base = 250 * Math.pow(0.917, rank - 1);
@@ -209,7 +209,7 @@
         });
         for (var i = 0; i < list.length; i++) {
             var entry = list[i];
-            var isLegacy = (i + 1) > 50;
+            var isLegacy = (i + 1) > 75;
             var nameDisplay = isLegacy ? `<em>${entry.name}</em>` : `<strong>${entry.name}</strong>`;
             if (entry.key != null) {
                 $("<div>").addClass((l == -1 ? (i == 0) : (i == l)) ? 'entry selected' : 'entry').html(`#${i+1}: ${nameDisplay} by <em class="author">${entry.author}</em>`).attr('value', i).appendTo(list_node)
@@ -238,7 +238,7 @@
             }
             var rank = 0;
             if (entry.key == null) {
-                rank = 50 + (legacy_count - entry.legacyKey);
+                rank = 75 + (legacy_count - entry.legacyKey);
             } else {
                 rank = (entry.key) + 1;
             }
@@ -250,7 +250,7 @@
                     hacked = " <span class='p-hacked'>POSSIBLY HACKED</span>";
                 }
             }
-            $("#levelname").html((rank > 50 ? `` : `#` + rank + ` `) + entry.name + hacked);
+            $("#levelname").html((rank > 75 ? `` : `#` + rank + ` `) + entry.name + hacked);
             var author = entry.author;
             var final_author;
             if (author.includes(' more ')) {
